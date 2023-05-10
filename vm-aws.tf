@@ -1,5 +1,5 @@
 resource "aws_key_pair" "key" {
-  key_name   = "aws-key"
+  key_name   = "aws-key-testegithubactions123"
   public_key = var.aws_pub_key
 }
 

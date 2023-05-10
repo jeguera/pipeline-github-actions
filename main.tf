@@ -15,7 +15,7 @@ terraform {
     resource_group_name  = "storage_account_resource_group"
     storage_account_name = "gaaraujostorageaccount"
     container_name       = "primeirocontainer"
-    key                  = "pipeline-azure-devops/terraform.tfstate"
+    key                  = "pipeline-github-actions/terraform.tfstate"
   }
 }
 

@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "resource_group_name" {
-  name     = "vm1"
+  name     = "vm3"
   location = var.location
 
   tags = local.common_tags
